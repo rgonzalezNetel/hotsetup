@@ -1,0 +1,8 @@
+[web]
+files = ["main.go", "controller/controller.go", "repository/repository.go", "models/models.go", "service/service.go"]
+
+[web-library]
+libs = ["github.com/jaimenetel/golibs","github.com/jaimenetel/golibs/libhttp", "github.com/jaimenetel/golibs/logrequest", "github.com/jaimenetel/golibs/mosquitero"]
+
+[none]
+files = ["gmain.go", "prueba/prueba.go"]
